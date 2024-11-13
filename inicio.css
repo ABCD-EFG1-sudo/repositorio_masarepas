@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+head{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://img.freepik.com/vector-gratis/copia-espacio-fondo-blanco_23-2148845470.jpg);
+}
+
+
+
+.wen{
+    max-width: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+p{ text-align: center;
+    font-size: larger;
+  font: small-caps 100%/200% serif;
+
+}
+
+h1{
+    text-align: center;
+    line-height: 200%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: dotted;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 130px 0 0 0;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-size: 50%;
+}
+
+.logo{
+    font-size: 25px;
+    color: firebrick;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+.menu .navbar ul li a:hover{
+    color: firebrick;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono {
+    width: 100px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito{
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    min-width: 400px;
+}
+
+table {
+    width: 100%;
+}
+
+th, td{
+    color: rgb(0, 0, 0);
+}
+
+.borrar {
+    background-color: rgb(7, 7, 7);
+    border-radius: 50px;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: 25px;
+
+}
+
+.header-txt {
+    flex-basis: 50%;
+    margin-right: 25px;
+}
+
+span{
+    color: rgb(5, 5, 5);
+    font-size: 17px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.header-txt h1{
+    font-size: 70px;
+    text-transform: capitalize;
+    line-height: 1;
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;
+}
+
+
+.header-txt p{
+    font-size: 17px;
+    color: brown;
+    margin-bottom: 35px;
+}
+
+.butons{
+    display: flex;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 13px  25px;
+    background-color: rgb(255, 0, 0);
+    margin-right: 20px;
+    color: rgb(9, 10, 10);
+    text-transform: capitalize;
+    margin-bottom: 100px;
+}
+
+.header-img{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.header-img img{
+    height: 550px;
+}
+
+oferts{
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ofert-1{
+    flex-basis: calc(33.3% - 50px);
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.ofert-txt{
+    flex-basis: 50%;
+}
+
+.ofert-txt h3{
+    color: cadetblue;
+}
+
+.ofert-txt a {
+    color: cadetblue;
+}
+
+.ofert-img{
+    flex-basis: 50%;
+}
+
+.products{
+    padding: 0 0 50px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.box-container{
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
